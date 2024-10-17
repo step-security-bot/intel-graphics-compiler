@@ -16,7 +16,7 @@ jobs:
   stale:
     runs-on: [self-hosted, Linux]
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e # v9.0.0
         with:
           stale-pr-label: stale
           stale-pr-message: 'This PR is stale because it has been open 60 days with no activity. Make a comment or remove the "stale" label to avoid closing the PR after 7 days.'
